@@ -15,7 +15,9 @@
     <title>Hosterr page</title>
   </head>
   <body class="bg-amber-50">
-    <div class="min-h-screen px-6 py-3 flex flex-col gap-16 md:px-10 md:py-7">
+    <div
+      class="min-h-screen px-6 py-3 flex flex-col gap-16 md:px-10 md:py-7 lg:px-16"
+    >
       <header class="flex justify-between">
         <div class="flex items-center justify-center gap-2">
           <img src="Assets/Logo.svg" alt="" />
@@ -25,31 +27,47 @@
             Hoster is hiring!
           </button>
         </div>
-        <div>
+        <ul
+          class="hidden lg:flex justify-between items-center font-lato text-gray-400 gap-6"
+        >
+          <li><a href="#">Plan</a></li>
+          <li><a href="#">Find Domain</a></li>
+          <li><a href="#">Why Hoster</a></li>
+        </ul>
+        <div class="hidden lg:flex justify-center items-center font-lato gap-6">
+          <a href="#" class="text-gray-400 font-lato"> Sign In</a>
+          <button class="btn">Join Waitlist</button>
+        </div>
+        <div class="lg:hidden">
           <i class="fa-solid fa-bars"></i>
         </div>
       </header>
-      <main class="">
-        <div class="flex justify-center items-center">
-          <img src="Assets/Blue Shape.svg" alt="" class="h-64 -rotate-[45deg]
-          "//md:h-72 />
+      <main class="lg:flex">
+        <div
+          class="flex justify-center items-center lg:flex-1 lg:order-2 lg:justify-end"
+        >
+          <img
+            src="Assets/Blue Shape.svg"
+            alt=""
+            class="h-64 -rotate-[45deg] md:h-72 lg:h-96"
+          />
           <img
             src="Assets/Pink Shape.svg"
             alt=""
-            class="absolute h-64 -rotate-[30deg] md:h-72"
+            class="absolute h-64 -rotate-[30deg] md:h-72 lg:h-96"
           />
           <img
             src="Assets/Purple Shape.svg"
             alt=""
-            class="absolute h-64 -rotate-[15deg] md:h-72"
+            class="absolute h-64 -rotate-[15deg] md:h-72 lg:h-96"
           />
           <img
             src="Assets/Hero Image (Model).png"
             alt=""
-            class="absolute h-64 md:h-72"
+            class="absolute h-64 md:h-72 lg:h-96"
           />
         </div>
-        <div class="space-y-4 mt-16">
+        <div class="space-y-4 mt-16 lg:flex-1 lg:order-1">
           <h1 class="text-5xl font-bold leading-tight font-playfair">
             Host your website in less than 5 minutes.
           </h1>
@@ -63,11 +81,7 @@
               placeholder="Enter email address"
               class="rounded-md px-4 py-3 placeholder:text-gray-400"
             />
-            <button
-              class="bg-blue-500 rounded-md px-4 py-3 text-white font-lato font-medium"
-            >
-              Join Waitlist
-            </button>
+            <button class="btn">Join Waitlist</button>
           </form>
           <div class="flex gap-2">
             <img src="Assets/Checkmark.svg" alt="" />
