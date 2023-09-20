@@ -1,11 +1,10 @@
-# hoster-page
+<h1>Hoster-page</h1>
+<h5>This page is built in Html and tailwind css and is fully responsive.</h5>
 
-This page is built in Html and tailwind css and is fully responsive.
+<h1>Mobile:</h1>
 
-# Mobile:
+ <img src="Assets/mobile.png" alt=""/>
 
- <img src="Assets/mobile.png"/>
+<h1>Desktop:</h1>
 
-# Desktop:
-
-  <img src="Assets/desktop.png"/>
+  <img src="Assets/desktop.png" alt=""/>
